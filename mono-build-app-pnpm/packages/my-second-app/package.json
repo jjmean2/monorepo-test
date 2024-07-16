@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "my-second-app",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -15,8 +15,8 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "my-util": "workspace:1.0.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "16.3.1",
+    "react-dom": "16.3.1"
   },
   "dependenciesMeta": {
     "my-util": {
@@ -24,8 +24,8 @@
     }
   },
   "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",
     "webpack": "^5.93.0",

@@ -1,6 +1,8 @@
-import type { ReactElement } from "react";
+import { type ReactElement, version } from "react";
 import { createRoot } from "react-dom/client";
 import { useSum } from "my-util";
+
+console.log("React Version in my-app", version);
 
 function App(): ReactElement {
   const { sum, add } = useSum();

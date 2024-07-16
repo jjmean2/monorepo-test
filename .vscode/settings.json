@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.ruby-lsp": false,
+    "**/.classpath": false,
+    "**/.factorypath": false,
+    "**/.project": false,
+    "**/.settings": false
+  }
+}

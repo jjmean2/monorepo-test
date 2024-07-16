@@ -1,11 +1,11 @@
-import type { ReactElement } from "react";
 import { useState, version } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
+import * as ReactDOM from "react-dom";
 import { useSum } from "my-util";
 
-console.log("React Version in my-app", version);
+console.log("React Version in my-second-app", version);
 
-function App(): ReactElement {
+function App() {
   const [state, setState] = useState(0);
   const { sum, add } = useSum();
 
@@ -19,6 +19,5 @@ function App(): ReactElement {
 
 const rootDiv = document.getElementById("root");
 if (rootDiv !== null) {
-  const root = createRoot(rootDiv);
-  root.render(<App />);
+  ReactDOM.render(<App />, rootDiv);
 }

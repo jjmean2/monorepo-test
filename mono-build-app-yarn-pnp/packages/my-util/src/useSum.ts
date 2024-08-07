@@ -1,7 +1,7 @@
 import * as R from "remeda";
 import { useState, version } from "react";
 
-console.log("React version in my-util", version);
+console.log("[Good] React version in my-util", version);
 
 export function useSum() {
   const [sum, setSum] = useState(0);
